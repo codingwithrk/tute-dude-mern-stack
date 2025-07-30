@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Color Greeting UI</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>Hello<span id="name"></span></header>
+
+    <div class="color-buttons">
+      <div class="color-button" id="red" onclick="toggleRed()">Red</div>
+      <div class="color-button" id="blue" onclick="toggleBlue()">Blue</div>
+      <div class="color-button" id="green" onclick="toggleGreen()">Green</div>
+      <div class="color-button" id="yellow" onclick="toggleYellow()">
+        Yellow
+      </div>
+    </div>
+
+    <div class="greet-form">
+      <input type="text" placeholder="Enter your name" id="name_text" />
+      <button onclick="displayName()">Greet</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

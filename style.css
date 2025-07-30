@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #eee;
+  padding: 20px;
+  font-size: 24px;
+}
+
+.color-buttons {
+  margin: 40px 0;
+}
+
+.color-button {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  line-height: 100px;
+  color: #686767;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 1px solid #686767;
+}
+
+.red {
+  background-color: red;
+  color: white;
+}
+.blue {
+  background-color: blue;
+  color: white;
+}
+.green {
+  background-color: green;
+  color: white;
+}
+.yellow {
+  background-color: yellow;
+  color: black;
+}
+
+.greet-form {
+  margin-top: 20px;
+}
+
+.greet-form input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  width: 150px;
+}
+
+.greet-form button {
+  padding: 8px 12px;
+  font-size: 16px;
+  margin-left: 5px;
+}
