@@ -44,5 +44,7 @@ function displayName() {
   let name_value = name_text.value;
 
   let name_span = document.getElementById("name");
-  name_span.innerHTML = ", " + name_value;
+  if (name_value != "") {
+    name_span.innerHTML = ", " + name_value;
+  }
 }
